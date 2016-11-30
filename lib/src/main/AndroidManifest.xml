@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mabeijianxi.viewlargerimage">
+          package="com.mabeijianxi.viewlargerimage">
 
+    <activity
+        android:name="com.mabeijianxi.lookbigpicutils.activty.LookBigPicActivity"
+        android:launchMode="singleTop"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 </manifest>
